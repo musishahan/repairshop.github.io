@@ -1,0 +1,88 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.pricing-plan {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 30px;
+  width: 30%;
+  transition: transform 0.3s;
+}
+
+.pricing-plan:hover {
+  transform: scale(1.05);
+}
+
+.pricing-plan h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+/* Eco Plan Styling */
+.eco {
+  background-color: #e1f5e1;
+}
+
+/* Premium Plan Styling */
+.premium {
+  background-color: #ffe082;
+}
+
+/* Luxury Plan Styling */
+.luxury {
+  background-color: #f8d7da;
+}
+
